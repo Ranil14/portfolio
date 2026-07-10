@@ -984,6 +984,7 @@ footer p {
     }
 }
 
+/* RESPONSIVE DESIGN - TABLETS & PHONES */
 @media (max-width: 768px) {
     .section-header h2 {
         font-size: 32px;
@@ -1071,3 +1072,73 @@ footer p {
         text-align: center;
     }
 }
+
+/* RESPONSIVE DESIGN - SMALL MOBILE PHONES */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    /* Section Spacing */
+    .hero-section {
+        padding: 120px 0 60px;
+    }
+    
+    .about-section, .skills-section, .experience-section, .projects-section, .certifications-section, .contact-section {
+        padding: 60px 0;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .section-header h2 {
+        font-size: 28px;
+    }
+
+    /* Hero adjustments */
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-content h2 {
+        font-size: 20px;
+        min-height: 30px;
+    }
+
+    .hero-desc {
+        font-size: 15px;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+
+    .hero-btns .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .profile-frame {
+        width: 220px;
+        height: 220px;
+    }
+
+    /* Cards adjustments */
+    .about-info-card, .education-card, .skill-card, .experience-card, .project-info, .contact-card-item {
+        padding: 24px 16px;
+    }
+
+    .timeline {
+        padding-left: 16px;
+    }
+
+    .timeline-dot {
+        left: -25px;
+    }
+}
+
+
+
