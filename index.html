@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranil M | Data Analyst Portfolio</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Professional portfolio of Ranil M, a Data Analyst specialized in Power BI, Tableau, SQL, and Python. View projects, experience, and certifications.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- STICKY NAVBAR -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Ranil<span>.M</span></a>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">Available for Roles</div>
+                <h1>Hi, I'm <span class="gradient-text">Ranil M</span></h1>
+                <h2>I am a <span class="typing-text"></span></h2>
+                <p class="hero-desc">
+                    Transforming complex data structures into visually compelling dashboards and strategic business intelligence. Skilled in Power BI, Tableau, SQL, and Python.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-trend-up"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Let's Connect <i class="fa-regular fa-paper-plane"></i></a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://linkedin.com/in/ranil14" target="_blank" rel="noopener" class="social-icon" id="linkedin-hero" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Ranil14" target="_blank" rel="noopener" class="social-icon" id="github-hero" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:ranilmahadevan14@gmail.com" class="social-icon" id="email-hero" aria-label="Email Me"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="profile-frame">
+                    <img src="profile_pic.jpg" alt="Ranil M Profile Photo" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Biography</span>
+                <h2>About Me</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-info-card glass-card">
+                    <h3>My Background</h3>
+                    <p>
+                        I am an entry-level Data Analyst with a solid education in Computer Applications. I thrive on data cleaning, Exploratory Data Analysis (EDA), and database design. I enjoy uncovering patterns and building dashboards that help stakeholders track key performance indicators (KPIs) and make informed business choices.
+                    </p>
+                    <p>
+                        I specialize in combining coding skills in Python and SQL with modern Business Intelligence tools to turn raw numbers into readable, actionable insights.
+                    </p>
+                </div>
+                <div class="education-card glass-card">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-header">
+                                <span class="timeline-date">2024 - 2026</span>
+                                <h4>Master of Computer Applications (MCA)</h4>
+                            </div>
+                            <p class="timeline-institution">KGISL Institute of Information Management, Coimbatore</p>
+                            <p class="timeline-grade"><i class="fa-solid fa-graduation-cap"></i> CGPA: <strong>8.0 / 10</strong></p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-header">
+                                <span class="timeline-date">2021 - 2024</span>
+                                <h4>Bachelor of Computer Applications (BCA)</h4>
+                            </div>
+                            <p class="timeline-institution">Sri Ramakrishna Mission Vidyalaya College of Arts and Science, Coimbatore</p>
+                            <p class="timeline-grade"><i class="fa-solid fa-graduation-cap"></i> CGPA: <strong>7.9 / 10</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Expertise</span>
+                <h2>Technical Skills</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Card 1 -->
+                <div class="skill-card glass-card">
+                    <div class="skill-icon-wrapper">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Programming & Tools</h3>
+                    <ul class="skill-list">
+                        <li><span>Python</span> <span class="skill-level">Pandas, NumPy, Matplotlib, Seaborn</span></li>
+                        <li><span>Excel</span> <span class="skill-level">Advanced formulas, pivot tables, charts</span></li>
+                    </ul>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="skill-card glass-card">
+                    <div class="skill-icon-wrapper">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <h3>Visualization & BI</h3>
+                    <ul class="skill-list">
+                        <li><span>Power BI</span> <span class="skill-level">DAX modeling, interactive report layouts</span></li>
+                        <li><span>Tableau</span> <span class="skill-level">Worksheets, dashboards, stories</span></li>
+                        <li><span>KPI Reporting</span> <span class="skill-level">Executive-level summaries, metric cards</span></li>
+                    </ul>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="skill-card glass-card">
+                    <div class="skill-icon-wrapper">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>Data Management</h3>
+                    <ul class="skill-list">
+                        <li><span>SQL & MySQL</span> <span class="skill-level">Queries, joins, aggregations, window functions</span></li>
+                        <li><span>Data Modeling</span> <span class="skill-level">ETL pipelines, schema design, star schemas</span></li>
+                        <li><span>Data Cleaning</span> <span class="skill-level">EDA, handling missing values, transforming data</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Professional Journey</span>
+                <h2>Experience</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="experience-wrapper">
+                <div class="experience-card glass-card">
+                    <div class="experience-badge">Full-Time</div>
+                    <div class="experience-header">
+                        <div class="job-title-group">
+                            <h3>Data Analyst</h3>
+                            <span class="company-name">Pumo Technovation India Pvt Ltd</span>
+                        </div>
+                        <span class="job-duration"><i class="fa-regular fa-calendar-days"></i> Dec 2025 - Apr 2026</span>
+                    </div>
+                    <ul class="experience-bullets">
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Collaborated with business teams to gather requirements, designing interactive <strong>Power BI, Tableau, and Excel dashboards</strong> to track sales, HR, and regional KPIs.</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Utilized <strong>SQL and Python (Pandas)</strong> to extract, clean, and process <strong>50,000+ raw records</strong>, ensuring high data quality and reducing report delivery turnaround time by <strong>90%</strong>.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Portfolio</span>
+                <h2>Featured Projects</h2>
+                <div class="section-underline"></div>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+                <button class="filter-btn" data-filter="python" id="filter-python">Python</button>
+                <button class="filter-btn" data-filter="sql" id="filter-sql">SQL</button>
+                <button class="filter-btn" data-filter="bi" id="filter-bi">BI & Dashboards</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card" data-category="python">
+                    <div class="project-thumbnail">
+                        <div class="project-icon-bg"><i class="fa-solid fa-eye-low-vision"></i></div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Face Biometric ATM Authentication</h3>
+                        <p class="project-subtitle">College Academic Project</p>
+                        <p class="project-desc">
+                            Developed a secure biometric authentication module for ATMs by integrating real-time facial recognition with traditional Card/PIN entry.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Implemented facial recognition using OpenCV and Python.</li>
+                            <li>Designed a MySQL schema for user profiles, biometric hashes, and logs.</li>
+                            <li>Integrated system-generated alerts/verification links for failed login events.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card" data-category="sql">
+                    <div class="project-thumbnail">
+                        <div class="project-icon-bg"><i class="fa-solid fa-users-gear"></i></div>
+                        <div class="project-tags">
+                            <span class="tag">SQL</span>
+                            <span class="tag">Excel</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>HR Analytics Dashboard</h3>
+                        <p class="project-subtitle">Data Analysis & Visualization</p>
+                        <p class="project-desc">
+                            Analyzed a dataset of 1,400+ employees to identify key workforce indicators, attrition rates, and retention factors.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Wrote optimized SQL window functions, joins, and aggregations.</li>
+                            <li>Designed an interactive Excel HR dashboard with Pivot tables and Charts.</li>
+                            <li>Integrated slicers and dynamic KPI cards for real-time manager reporting.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card" data-category="bi">
+                    <div class="project-thumbnail">
+                        <div class="project-icon-bg"><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">DAX</span>
+                            <span class="tag">Data Modeling</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sales Performance Dashboard</h3>
+                        <p class="project-subtitle">Business Intelligence Report</p>
+                        <p class="project-desc">
+                            Built an executive-level performance dashboard analyzing over 10,000 sales transactions across global product lines and regions.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Formulated 15+ custom DAX measures for year-over-year growth and profits.</li>
+                            <li>Created optimized star schema relational model in Power BI.</li>
+                            <li>Achieved sub-second report rendering using data model indexing.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Credentials</span>
+                <h2>Certifications & Awards</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="certifications-grid">
+                <!-- Cert 1 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                    <div class="cert-details">
+                        <h4>Data Analytics Professional Course</h4>
+                        <p class="cert-issuer">Pumo Technovation</p>
+                    </div>
+                </div>
+                <!-- Cert 2 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <div class="cert-details">
+                        <h4>Data Analysis & Forensic Tech Simulation</h4>
+                        <p class="cert-issuer">Deloitte (via Forage)</p>
+                    </div>
+                </div>
+                <!-- Cert 3 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                    <div class="cert-details">
+                        <h4>Python Programming Certification</h4>
+                        <p class="cert-issuer">Spoken Tutorial, IIT Bombay</p>
+                    </div>
+                </div>
+                <!-- Cert 4 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                    <div class="cert-details">
+                        <h4>Best Paper Award</h4>
+                        <p class="cert-issuer">National Conference, Sri Ramakrishna College</p>
+                        <p class="cert-note">Presented: ATM Face Biometric Authentication System</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Get in Touch</span>
+                <h2>Contact Me</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info-centered">
+                    <h3>Let's collaborate on data solutions</h3>
+                    <p class="contact-intro">
+                        Are you looking for an entry-level Data Analyst with MCA foundation and practical project experience? Feel free to reach out to me via any of the channels below.
+                    </p>
+                </div>
+                <div class="contact-cards-grid">
+                    <!-- Card 1 -->
+                    <div class="contact-card-item glass-card">
+                        <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <h4>Email Me</h4>
+                        <a href="mailto:ranilmahadevan14@gmail.com">ranilmahadevan14@gmail.com</a>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="contact-card-item glass-card">
+                        <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+                        <h4>Call Me</h4>
+                        <a href="tel:+918531855207">+91 85318 55207</a>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="contact-card-item glass-card">
+                        <div class="contact-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <h4>Location</h4>
+                        <p>Coimbatore, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Ranil M. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/ranil14" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Ranil14" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:ranilmahadevan14@gmail.com" aria-label="Email Me"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
